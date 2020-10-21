@@ -1,6 +1,7 @@
 echo " Installing Vmware tools and other Essentials"
 sudo apt update
 sudo apt-get install net-tools -y
+sudo apt-get install libglib2.0-dev
 sudo apt-get install git -y 
 sudo apt-get install open-vm-tools -y
 sudo apt-get install open-vm-tools-desktop -y 
