@@ -1,5 +1,8 @@
 echo " Installing Vmware tools and other Essentials"
 sudo apt update
+sudo apt install python2
+sudo apt-get install python2-pip
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
 sudo apt-get install net-tools -y
 sudo apt-get install libglib2.0-dev
 sudo apt-get install git -y 
@@ -38,8 +41,6 @@ sudo apt-get install android-tools-fsutils -y
 sudo apt-get install binwalk -y
 sudo apt-get install python3-pip -y
 sudo pip install pygatt
-sudo apt install python2
-sudo apt-get install python2-pip
 sudo apt install -y wireshark-qt
 sudo snap install sublime-text --classic atom --classic
 echo "Installing mobsf"
